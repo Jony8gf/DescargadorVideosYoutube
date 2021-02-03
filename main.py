@@ -5,9 +5,7 @@
 from pytube import YouTube
 
 #Le indicamos por teclado la url del video que deseamos
-
-yt=YouTube('https://www.youtube.com/watch?v=WQ7gYKh5mj4&t=3s&ab_channel=JonyCoding')
-
+yt = (YouTube) (input("Dime el url de video de Youtube:"))
 #Atributos iteresantes
 #Title nos indica el nombre del video
 print(yt.title)
